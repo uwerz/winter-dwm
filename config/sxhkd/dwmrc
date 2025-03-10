@@ -1,0 +1,11 @@
+# Change volume
+super + v
+		pactl set-sink-volume 0 +5%
+super + V
+		pactl set-sink-volume 0 -5%
+
+# Wallpaper dim
+super + d
+		feh --bg-fill ~/Pics/WinterTreeDark.jpg
+super + D
+		feh --bg-fill ~/Pics/WinterTree.jpg
